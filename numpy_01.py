@@ -47,7 +47,7 @@ print(a[:, 0])
 # [r, startindex:endindex:stepsize ]
 print(a[0,1:-1:2])
 
-# change elemnent
+# change element
 
 a[1,5] = 20
 a[:,5] = [1,2]
@@ -59,4 +59,4 @@ b = np.array([[[1,2],[3,4]],[[5,6],[7,8]]])
 print(b)
 
 # Get specific element (work outside in)
-print(b[0,1,1])
+print(b[:,1,1])
